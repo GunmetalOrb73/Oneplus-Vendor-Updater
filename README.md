@@ -28,10 +28,13 @@ Copy payload.bin into the newly extracted folder then run
   After The extraction is complete copy updatefirmware.sh to the newly created folder with the extracted contents
 
   Connect your phone to you computer with adb enabled then execute the following commands
+  
   ```#adb reboot fastboot```
+  
   ```#./updatefirmware.sh```
 
   Wait for the process to complete then reboot your device
+  
   ```fastboot reboot```
 
 
