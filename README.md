@@ -14,9 +14,6 @@ Requirements for the software and other tools to build, test and push
 
 ### Usage Instructions
 
-A step by step series of examples that tell you how to get a development
-environment running
-
 Extract your firmware.zip that you downloaded
 
   [Download](https://github.com/ssut/payload-dumper-go/releases) payload-dumper-go then extact the contents
