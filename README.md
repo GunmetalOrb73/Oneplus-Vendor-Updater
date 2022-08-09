@@ -43,7 +43,7 @@ Copy payload.bin into the newly extracted folder then run
 
 ## License
 
-This project is licensed under [The Unlicense](LICENSE.md) see the [LICENSE.md](LICENSE.md) file for
+This project is licensed under [The Unlicense](LICENSE) see the [LICENSE.md](LICENSE.md) file for
 details
 
 ## Acknowledgments
