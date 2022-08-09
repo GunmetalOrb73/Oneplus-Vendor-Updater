@@ -9,7 +9,7 @@ This is a simple script I made for linux that will automatically flash your Onep
 Requirements for the software and other tools to build, test and push 
 - [Latest Adb and Fastboot Tools](https://developer.android.com/studio/releases/platform-tools#downloads)
 - [Oneplus Phone](https://www.oneplus.com/store/phone)
-- [Latest Vendor Firmware For yout Device](https://www.oneplus.com/global/support/softwareupgrade)
+- [Latest Vendor Firmware For your Device](https://www.oneplus.com/global/support/softwareupgrade)
 - [Computer Running Linux](#)
 
 ### Usage Instructions
