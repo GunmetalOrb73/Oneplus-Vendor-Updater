@@ -2,7 +2,10 @@
 
 This is a simple script I made for linux that will automatically flash your Oneplus devices vendor firmware without wiping the device. This is useful for when you are running a custom rom such as Lineage Os or Crdroid which cannot include Oneplus's propietary files in the upgrade packages.
 
-
+### TO-DO:
+- [ ] Automatically fetch required files
+- [ ] Automatically setup work environment and reduce human intervention
+- [ ] Simplify process and reduce steps needed
 
 ### Prerequisites
 
@@ -50,4 +53,5 @@ details
 
   - SSUT and the other developers of payload-dumper-go for creating an easy and quick way to extract your firmware
   - AOSP
-  - Anyone else I may forget to mention such as Lineage OS for our contributions to the android open source project
+  - Anyone else I may forget to mention such as Lineage OS for their contributions to the android open source project
+
