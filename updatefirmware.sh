@@ -1,5 +1,25 @@
-wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
-
+sudo su
+read -p "Please make sure adb is enabled and authorized on your device and please note there will be one more prompt  later on before we continue to flash your device. Press any key to continue..."
+mkdir workspace
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip -P  ./workspace
+wget https://github.com/ssut/payload-dumper-go/releases/download/1.2.2/payload-dumper-go_1.2.2_linux_amd64.tar.gz -P  ./workspace
+cd ./workspace
+unzip platform-tools-latest-linux.zip
+tar -x payload-dumper-go_1.2.2_linux_amd64.tar.gz
+read -p "Please copy firmware to ./workspace/ and rename to firmware.zip then press any key to continue..."
+mkdir firmware
+mv ./firmware. zip /firmware/
+unzip ./firmware/firmware.zip
+cd firmware/
+cd */
+mkdir payload
+mv payload.bin payload/
+cd payload/
+../../../payload-dumper-go payload.bin
+cd */
+mv * ../../../platform-tools/
+adb reboot fastboot
+fastboot reboot fastboot
 fastboot flash --slot=all abl abl.img
 fastboot flash --slot=all aop aop.img
 fastboot flash --slot=all bluetooth bluetooth.img
@@ -21,3 +41,4 @@ fastboot flash --slot=all tz tz.img
 fastboot flash --slot=all uefisecapp uefisecapp.img
 fastboot flash --slot=all xbl_config xbl_config.img
 fastboot flash --slot=all xbl xbl.img
+fastboot reboot
