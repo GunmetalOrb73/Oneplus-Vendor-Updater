@@ -1,3 +1,5 @@
+wget https://dl.google.com/android/repository/platform-tools-latest-linux.zip
+
 fastboot flash --slot=all abl abl.img
 fastboot flash --slot=all aop aop.img
 fastboot flash --slot=all bluetooth bluetooth.img
