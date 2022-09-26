@@ -3,13 +3,10 @@
 This is a simple script I made for linux that will automatically flash your Oneplus devices vendor firmware without wiping the device. This is useful for when you are running a custom rom such as Lineage OS or Crdroid which cannot include Oneplus's propietary files in the upgrade packages.
 
 ### TO-DO:
-- [x] Automatically fetch required files
-- [x] Automatically setup work environment and reduce human intervention
-- [x] Simplify process and reduce steps needed
+
 
 ### Prerequisites
 
-Requirements for the software and other tools to build, test and push 
 - [Oneplus Phone](https://www.oneplus.com/store/phone)
 - [Latest Vendor Firmware For your Device](https://www.oneplus.com/global/support/softwareupgrade)
 - [Computer Running Linux](#)
