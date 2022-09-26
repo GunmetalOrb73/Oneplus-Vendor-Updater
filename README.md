@@ -9,7 +9,7 @@ This is a simple script I made for linux that will automatically flash your Onep
 
 - [Oneplus Phone](https://www.oneplus.com/store/phone)
 - [Latest Vendor Firmware For your Device](https://www.oneplus.com/global/support/softwareupgrade)
-- [Computer Running Linux](#)
+- [x86_64 Computer Running Linux](#)
 - [ A stable internet connection](#)
 
 ### Usage Instructions
