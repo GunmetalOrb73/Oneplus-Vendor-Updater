@@ -21,7 +21,7 @@ cd payload/
 cd */
 mv * ../../../platform-tools/
 cd ../../../platform-tools/
-adb reboot fastboot
+./adb reboot fastboot
 ./fastboot reboot fastboot
 ./fastboot flash --slot=all abl abl.img
 ./fastboot flash --slot=all aop aop.img
@@ -45,4 +45,4 @@ adb reboot fastboot
 ./fastboot flash --slot=all xbl_config xbl_config.img
 ./fastboot flash --slot=all xbl xbl.img
 ./fastboot reboot
-rm -rf .../.../workspace/
+rm -rf ../../workspace/
